@@ -4,8 +4,8 @@
 #   brew tap v0-visualizer/desktop-releases https://github.com/V0-Visualizer/desktop-releases
 #   brew install --cask v0-visualizer
 cask "v0-visualizer" do
-  version "0.7.1"
-  sha256 "2ccd86c7a9980042765e29bedb0a2ad07b9ad017aa8c10e856b822d22fb63a7b"
+  version "0.7.2"
+  sha256 "bb2602e3d8024134c51be577322e1a512e29b080be016f3332a88d370068eb83"
 
   url "https://github.com/V0-Visualizer/desktop-releases/releases/download/v#{version}/V0-Visualizer-#{version}-macOS-arm64.dmg",
       verified: "github.com/V0-Visualizer/desktop-releases/"
