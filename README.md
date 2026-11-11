@@ -58,8 +58,14 @@ The easiest way is **[v0visualizer.com/download](https://v0visualizer.com/downlo
 <summary><b>Windows 10 and 11</b></summary>
 <br>
 
+<a href="https://apps.microsoft.com/detail/9PMLZ8DF1M17"><img src="https://img.shields.io/badge/Get_it_from-Microsoft_Store-0078d4?style=for-the-badge&logo=microsoft&logoColor=white&labelColor=0b0b0c" alt="Get it from the Microsoft Store" height="32"></a>
+
+The simplest way on Windows: install it from the **[Microsoft Store](https://apps.microsoft.com/detail/9PMLZ8DF1M17)**, and the Store keeps it up to date.
+
+Or use the installer:
+
 1. Download and run **`V0-Visualizer-Setup-<version>.exe`**.
-2. If Windows says *Windows protected your PC*, choose **More info**, then **Run anyway**. The installer is not code-signed yet; the app itself checks every update before it installs it.
+2. If Windows says *Windows protected your PC*, choose **More info**, then **Run anyway**. The installer is not code-signed yet; the app itself checks every update before it installs it. The Store version does not show this warning.
 3. Sign in. The app opens your browser and comes back on its own.
 
 Prefer a package manager? With [Scoop](https://scoop.sh):
@@ -69,7 +75,7 @@ scoop bucket add v0 https://github.com/V0-Visualizer/V0-Visualizer-App
 scoop install v0/v0-visualizer
 ```
 
-winget and the Microsoft Store are on the way.
+winget is on the way.
 
 </details>
 
@@ -157,7 +163,7 @@ V0 Visualizer is free to use under the [Terms of Use](https://v0visualizer.com/t
 
 **İndir:** [v0visualizer.com/download](https://v0visualizer.com/download) bilgisayarına uygun dosyayı seçer. Tüm dosyalar [son sürümde](https://github.com/V0-Visualizer/V0-Visualizer-App/releases/latest).
 
-- **Windows:** SmartScreen "Windows bilgisayarınızı korudu" derse **Ek bilgi**, ardından **Yine de çalıştır**'ı seç. Yükleyici henüz kod imzalı değil.
+- **Windows:** en kolayı [Microsoft Store](https://apps.microsoft.com/detail/9PMLZ8DF1M17). Yükleyiciyi kullanırsan ve SmartScreen "Windows bilgisayarınızı korudu" derse **Ek bilgi**, ardından **Yine de çalıştır**'ı seç.
 - **macOS:** uygulamayı Applications'a sürükle, ilk açılışta sağ tıklayıp **Aç**'ı seç.
 - **Linux:** AppImage'ı `chmod +x` ile çalıştırılabilir yap ya da `.deb`'i `sudo apt install` ile kur.
 - **Telefon:** Android ve iPhone uygulamaları yolda; o zamana kadar V0 telefonunun tarayıcısında çalışır.
