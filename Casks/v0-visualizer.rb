@@ -1,14 +1,14 @@
 # V0 Visualizer's Homebrew cask, in the tap that is the release repository
 # itself (scripts/channels.mjs fills it; desktop.yml commits it there):
 #
-#   brew tap v0-visualizer/desktop-releases https://github.com/V0-Visualizer/desktop-releases
+#   brew tap v0-visualizer/app https://github.com/V0-Visualizer/V0-Visualizer-App
 #   brew install --cask v0-visualizer
 cask "v0-visualizer" do
-  version "0.7.2"
-  sha256 "bb2602e3d8024134c51be577322e1a512e29b080be016f3332a88d370068eb83"
+  version "0.8.0"
+  sha256 "80075a7d5ccecbbf7947153405a7f819d3b742d80c9927d4c44220f4cc4e63af"
 
-  url "https://github.com/V0-Visualizer/desktop-releases/releases/download/v#{version}/V0-Visualizer-#{version}-macOS-arm64.dmg",
-      verified: "github.com/V0-Visualizer/desktop-releases/"
+  url "https://github.com/V0-Visualizer/V0-Visualizer-App/releases/download/v#{version}/V0-Visualizer-#{version}-macOS-arm64.dmg",
+      verified: "github.com/V0-Visualizer/V0-Visualizer-App/"
   name "V0 Visualizer"
   desc "Your Last.fm listening, in a window of its own"
   homepage "https://v0visualizer.com/"
@@ -24,7 +24,7 @@ cask "v0-visualizer" do
 
   app "V0 Visualizer.app"
 
-  # Ad-hoc signed, not notarized yet: without this, the first open needs right-click > Open.
+  # Ad-hoc signed, not notarized yet: without this, the first open asks for Open Anyway in System Settings.
   postflight do
     system_command "/usr/bin/xattr",
                    args: ["-dr", "com.apple.quarantine", "#{appdir}/V0 Visualizer.app"]
