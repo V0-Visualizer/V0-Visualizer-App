@@ -1,5 +1,5 @@
 {
-    "version": "0.8.7",
+    "version": "0.8.8",
     "description": "Your Last.fm listening, in a window of its own.",
     "homepage": "https://v0visualizer.com",
     "license": {
@@ -9,8 +9,8 @@
     "notes": "V0 Visualizer updates itself; `scoop update` is not needed for new versions.",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/V0-Visualizer/V0-Visualizer-App/releases/download/v0.8.7/V0-Visualizer-Setup-0.8.7.exe#/setup.exe",
-            "hash": "5aa02746982036b3851069b5711ed7dc393e9d89bd6ffa0efc179d219b9f1a10"
+            "url": "https://github.com/V0-Visualizer/V0-Visualizer-App/releases/download/v0.8.8/V0-Visualizer-Setup-0.8.8.exe#/setup.exe",
+            "hash": "7114cef5a1f4b87e7f71bc8ede2510f6d048a425f3f1dc9bce198d00b014ee74"
         }
     },
     "installer": {
